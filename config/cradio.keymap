@@ -93,7 +93,7 @@
 };
 
 &mt {
-  tapping-term-ms: = <115>;
+  tapping-term-ms = <115>;
 }
 
   / {
