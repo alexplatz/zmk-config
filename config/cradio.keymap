@@ -108,22 +108,22 @@
           &kp Q         &kp W         &kp E          &kp R          &kp T                      &kp Y          &kp U          &kp I          &kp O          &kp P 
           &mt LSHFT A   &kp S         &kp D          &kp F          &kp G                      &kp H          &kp J          &kp K          &kp L          &mt RSHFT SEMI
           &mt LCTRL Z   &mt LALT X    &mt LGUI C     &kp V          &kp B                      &kp N          &kp M          &mt RGUI COMMA &mt RALT DOT   &mt RCTRL FSLH 
-                                               &lt 1 ESCAPE         &kp BACKSPACE              &kp SPACE      &lt 2 ENTER
+                                                     &lt 1 ESCAPE   &kp BACKSPACE              &kp SPACE      &lt 2 ENTER
           >;
         };
   layer1 {
           bindings = <
-          &kp ESCAPE             &kp C_VOL_DN &kp UP      &kp C_VOL_UP &kp SQT                   &kp LBKT     &kp N1       &kp N2       &kp N3       &kp MINUS 
-          &mt LSHFT &bootloader  &kp LEFT     &kp DOWN    &kp RIGHT    &kp GRAVE                 &kp BSLH     &kp N4       &kp N5       &kp N6       &kp N0 
-          &kp LCTRL              &kp C_PREV   &kp C_PP    &kp C_NEXT   &kp LGUI                  &kp RBKT     &kp N7       &kp N8       &kp N9       &kp EQUAL
-                                                          &trans       &trans                    &kp TAB      &kp PSCRN
+          &kp ESCAPE  &kp C_VOL_DN &kp UP      &kp C_VOL_UP &kp SQT                   &kp LBKT     &kp N1       &kp N2       &kp N3       &kp MINUS 
+          &trans      &kp LEFT     &kp DOWN    &kp RIGHT    &kp GRAVE                 &kp BSLH     &kp N4       &kp N5       &kp N6       &kp N0 
+          &kp LCTRL   &kp C_PREV   &kp C_PP    &kp C_NEXT   &kp LGUI                  &kp RBKT     &kp N7       &kp N8       &kp N9       &kp EQUAL
+                                               &trans       &trans                    &kp TAB      &kp PSCRN
           >;
         };
   layer2 {
           bindings = < 
-          &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4                  &tdf1        &tdf4        &tdf7       &tdf10       &bt BT_NXT
-          &trans       &trans       &trans       &trans       &trans                        &tdf2        &tdf5        &tdf8       &tdf11       &mt RSHFT &bootloader
-          &trans       &trans       &trans       &trans       &trans                        &tdf3        &tdf6        &tdf9       &tdf12       &tdoff 
+          &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4                  &tdf1        &tdf2        &tdf3       &tdf4        &tdf5
+          &trans       &trans       &trans       &trans       &trans                        &tdf6        &tdf7        &tdf8       &tdf9        &trans
+          &trans       &trans       &trans       &trans       &trans                        &tdf10       &tdf11       &tdf12      &bt BT_NXT   &tdoff 
                                                  &trans       &trans                        &trans       &trans
           >;
         };
