@@ -126,11 +126,11 @@
           >;
         };
   layer2 {
-          bindings = <
-          &trans      &trans      &trans      &trans      &trans                        &tdf1       &tdf4       &tdf7       &tdf10      &bt BT_NXT
-          &trans      &trans      &trans      &trans      &trans                        &tdf2       &tdf5       &tdf8       &tdf11      &tdrst
-          &trans      &trans      &trans      &trans      &trans                        &tdf3       &tdf6       &tdf9       &tdf12      &tdoff 
-                                              &trans      &trans                        &trans      &trans
+          bindings = < 
+          &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4                  &tdf1        &tdf4        &tdf7       &tdf10       &bt BT_NXT
+          &trans       &trans       &trans       &trans       &trans                        &tdf2        &tdf5        &tdf8       &tdf11       &tdrst
+          &trans       &trans       &trans       &trans       &trans                        &tdf3        &tdf6        &tdf9       &tdf12       &tdoff 
+                                                 &trans       &trans                        &trans       &trans
           >;
         };
     };
