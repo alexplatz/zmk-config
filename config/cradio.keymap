@@ -89,12 +89,6 @@
             tapping-term-ms = <115>;
             bindings = <&none>, <&soft_off>;
         };
-        tdrst: tap_dance_reset {
-            compatible = "zmk,behavior-tap-dance";
-            #binding-cells = <0>;
-            tapping-term-ms = <115>;
-            bindings = <&trans>, <&bootloader>;
-        };
     };
 };
 
