@@ -83,12 +83,6 @@
             tapping-term-ms = <115>;
             bindings = <&kp F12>, <&kp LC(LA(F12))>;
         };
-        tdoff: tap_dance_off {
-            compatible = "zmk,behavior-tap-dance";
-            #binding-cells = <0>;
-            tapping-term-ms = <115>;
-            bindings = <&none>, <&soft_off>;
-        };
         tdbt: tap_dance_bluetooth {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
@@ -135,7 +129,7 @@
           bindings = < 
           &trans &trans &trans &trans &trans            &tdf1  &tdf2  &tdf3  &tdf4 &tdf5
           &trans &trans &trans &trans &trans            &tdf6  &tdf7  &tdf8  &tdf9 &trans
-          &trans &trans &trans &trans &trans            &tdf10 &tdf11 &tdf12 &tdbt &tdoff 
+          &trans &trans &trans &trans &trans            &tdf10 &tdf11 &tdf12 &tdbt &bt BT_CLR 
                                &trans &trans            &trans &trans
           >;
         };
